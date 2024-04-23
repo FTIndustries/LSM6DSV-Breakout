@@ -1520,7 +1520,7 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
+		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1537,7 +1537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VCC"
+			(property "Value" "VDD"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1563,7 +1563,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1581,7 +1581,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VCC_0_1"
+			(symbol "VDD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1619,7 +1619,7 @@
 					)
 				)
 			)
-			(symbol "VCC_1_1"
+			(symbol "VDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1831,12 +1831,6 @@
 		)
 	)
 	(junction
-		(at 100.33 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "082bc356-3687-4d96-bc42-e3a9c49dddd0")
-	)
-	(junction
 		(at 128.27 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1855,16 +1849,22 @@
 		(uuid "57491356-2487-4805-b453-81e4c9e8f124")
 	)
 	(junction
+		(at 185.42 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b55d18-273f-4d63-9e69-9dffec5e67ab")
+	)
+	(junction
+		(at 100.33 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d80b99b4-a6b2-49b6-95e7-e32d213ad0ab")
+	)
+	(junction
 		(at 100.33 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa8a9681-2451-4d94-a245-6b28208c5b41")
-	)
-	(junction
-		(at 185.42 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faa195d4-2d36-4b71-a25f-22ee8b433ddf")
 	)
 	(no_connect
 		(at 161.29 57.15)
@@ -2244,17 +2244,6 @@
 		)
 		(uuid "f8865557-056d-4bcf-86dc-e09b6eb954fe")
 	)
-	(label "SDA"
-		(at 55.88 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05768d97-d572-4a2f-b897-82f9c84138aa")
-	)
 	(label "SCL"
 		(at 135.89 33.02 90)
 		(fields_autoplaced yes)
@@ -2265,6 +2254,17 @@
 			(justify left bottom)
 		)
 		(uuid "06fc9eac-a02c-43db-a119-7f8ac74a09c6")
+	)
+	(label "SDA"
+		(at 55.88 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c97dc48-b0a2-406e-84e7-a5841746509c")
 	)
 	(label "SA0"
 		(at 114.3 88.9 0)
@@ -2289,17 +2289,6 @@
 		(uuid "2167853e-e003-4dad-8006-97a332d53fa9")
 	)
 	(label "SCL"
-		(at 22.86 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ceb7db7-cb98-46b1-b47d-18b8ca716cec")
-	)
-	(label "SCL"
 		(at 167.64 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2309,6 +2298,17 @@
 			(justify right bottom)
 		)
 		(uuid "31356805-e522-4118-a9aa-42f93a5f6f40")
+	)
+	(label "SCL"
+		(at 55.88 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "326b1f83-a5b8-4d20-b0e4-3596a17ed290")
 	)
 	(label "SA0"
 		(at 121.92 46.99 0)
@@ -2387,6 +2387,28 @@
 		)
 		(uuid "62fc5e05-cf3b-4274-ae20-2e74c6f009b4")
 	)
+	(label "SDA"
+		(at 22.86 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64919ad7-a529-4c99-82bc-0b89bf46e00c")
+	)
+	(label "SCL"
+		(at 22.86 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74bb3489-6013-4ec6-a9cc-adc0989d70d2")
+	)
 	(label "INT2"
 		(at 167.64 59.69 180)
 		(fields_autoplaced yes)
@@ -2397,17 +2419,6 @@
 			(justify right bottom)
 		)
 		(uuid "9b88fdeb-b41a-4f70-9b09-f13255a4538c")
-	)
-	(label "SDA"
-		(at 22.86 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a055760a-be91-444d-a794-aadcf3918cbb")
 	)
 	(label "INT2"
 		(at 60.96 59.69 0)
@@ -2519,17 +2530,6 @@
 		)
 		(uuid "ef2f8d42-1df7-44e8-9bef-e1aed5aa4b07")
 	)
-	(label "SCL"
-		(at 55.88 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4714d17-bf50-4a7e-8c33-fcd8f40cea6d")
-	)
 	(label "CS"
 		(at 33.02 66.04 0)
 		(fields_autoplaced yes)
@@ -2540,72 +2540,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff8c57c5-8a38-43aa-a8e7-9ef6fea0ed97")
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 135.89 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08ff9792-58b4-4ed1-8346-b18daf2bade8")
-		(property "Reference" "#PWR011"
-			(at 135.89 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 135.89 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 135.89 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "055d83e9-39d4-43ae-b865-f97e2f565d72")
-		)
-		(instances
-			(project "LSM6DSV-Breakout"
-				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2668,6 +2602,72 @@
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 135.89 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c39f8f-48c0-4acb-8cb6-2d89a30311dc")
+		(property "Reference" "#PWR010"
+			(at 135.89 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 135.89 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 135.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+		)
+		(instances
+			(project "LSM6DSV-Breakout"
+				(path "/24953b58-eadd-406a-9e64-cdff82281852"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3048,72 +3048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 100.33 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d82d81f-7274-4b83-802d-9b1b4da4d83a")
-		(property "Reference" "#PWR04"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 100.33 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2be7cec6-3324-4333-b41f-195fad232f99")
-		)
-		(instances
-			(project "LSM6DSV-Breakout"
-				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 64.77 0)
 		(unit 1)
@@ -3244,72 +3178,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 40.64 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42c78faf-3150-4823-bc9d-12491d123bdb")
-		(property "Reference" "#PWR014"
-			(at 40.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 40.64 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46f00224-6170-4220-b784-66b3be6b1101")
-		)
-		(instances
-			(project "LSM6DSV-Breakout"
-				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 16.51 26.67 0)
 		(unit 1)
@@ -3376,17 +3244,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 158.75 21.59 0)
+		(lib_id "power:VDD")
+		(at 100.33 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5082c993-e392-40f3-9ff0-500713fc8373")
+		(uuid "5b099a3e-e5de-4178-82ff-f991ef8ea8b9")
 		(property "Reference" "#PWR013"
-			(at 158.75 25.4 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,8 +3262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 158.75 16.51 0)
+		(property "Value" "VDD"
+			(at 100.33 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 21.59 0)
+			(at 100.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 21.59 0)
+			(at 100.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,8 +3288,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 158.75 21.59 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 100.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3298,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "905b1dbd-373c-4ac5-b6c2-ac69a5584ffa")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -3508,6 +3376,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 100.33 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "627f1c60-22ff-4b80-8109-0345a2060262")
+		(property "Reference" "#PWR05"
+			(at 100.33 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 100.33 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 100.33 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+		)
+		(instances
+			(project "LSM6DSV-Breakout"
+				(path "/24953b58-eadd-406a-9e64-cdff82281852"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 25.4 0)
 		(unit 1)
@@ -3572,6 +3506,72 @@
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 111.76 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64685fb3-b833-4c5e-b62a-c08d831b160a")
+		(property "Reference" "#PWR08"
+			(at 111.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 111.76 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+		)
+		(instances
+			(project "LSM6DSV-Breakout"
+				(path "/24953b58-eadd-406a-9e64-cdff82281852"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3644,17 +3644,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 27.94 19.05 0)
+		(lib_id "power:VDD")
+		(at 40.64 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "73a15d36-dc4d-4399-9851-5ad596076a78")
-		(property "Reference" "#PWR02"
-			(at 27.94 22.86 0)
+		(uuid "6ce8298d-30f6-49fc-b23b-9453c0191f80")
+		(property "Reference" "#PWR016"
+			(at 40.64 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,8 +3662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 27.94 13.97 0)
+		(property "Value" "VDD"
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 19.05 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 19.05 0)
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,8 +3688,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 27.94 19.05 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 40.64 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,12 +3698,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "221d22d0-817b-4da5-839b-b0c6e791beb9")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR02")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4214,7 +4214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
+		(lib_id "power:VDD")
 		(at 124.46 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4222,8 +4222,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a552ec30-96ce-4818-b2b7-93e2ad6ee14f")
-		(property "Reference" "#PWR010"
+		(uuid "a27d4db1-c985-467a-9359-057ccea9f63a")
+		(property "Reference" "#PWR09"
 			(at 124.46 25.4 0)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VDD"
 			(at 124.46 16.51 0)
 			(effects
 				(font
@@ -4258,7 +4258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 124.46 21.59 0)
 			(effects
 				(font
@@ -4268,12 +4268,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "15b2cdd5-b2d2-463b-9f5b-87732f68964e")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4350,17 +4350,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 185.42 62.23 0)
+		(lib_id "power:VDD")
+		(at 27.94 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4c1da08-f0c8-4ff2-8fd5-1169faadbd9b")
-		(property "Reference" "#PWR05"
-			(at 185.42 66.04 0)
+		(uuid "a7f13af1-5dcd-4bb4-87fa-70b5434ecd7c")
+		(property "Reference" "#PWR02"
+			(at 27.94 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,8 +4368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 185.42 57.15 0)
+		(property "Value" "VDD"
+			(at 27.94 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 62.23 0)
+			(at 27.94 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 62.23 0)
+			(at 27.94 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,8 +4394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 185.42 62.23 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 27.94 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,29 +4404,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "59673af7-b93f-4e98-898a-50b0cc676b19")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 60.96 20.32 0)
+		(lib_id "power:VDD")
+		(at 147.32 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b69dfe1a-db46-44cc-a0ad-619e3b678ae4")
-		(property "Reference" "#PWR016"
-			(at 60.96 24.13 0)
+		(uuid "adbadcff-e468-4ddd-97da-5aa0f07c6957")
+		(property "Reference" "#PWR011"
+			(at 147.32 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,8 +4434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 60.96 15.24 0)
+		(property "Value" "VDD"
+			(at 147.32 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 20.32 0)
+			(at 147.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 20.32 0)
+			(at 147.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,74 +4460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 60.96 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bf59643-60b7-4b1f-885b-0686b2342758")
-		)
-		(instances
-			(project "LSM6DSV-Breakout"
-				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 111.76 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb2de2fb-3e8c-4d06-bf86-063cfcdfac9f")
-		(property "Reference" "#PWR09"
-			(at 111.76 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 111.76 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 111.76 21.59 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 147.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,12 +4470,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8888c56e-48a6-4d3f-a37a-053b35f51b7f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4727,6 +4661,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 60.96 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7188269-d942-429c-b27d-6b0ef9c35a1b")
+		(property "Reference" "#PWR04"
+			(at 60.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 60.96 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+		)
+		(instances
+			(project "LSM6DSV-Breakout"
+				(path "/24953b58-eadd-406a-9e64-cdff82281852"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 185.42 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54506e9-ec94-4e8b-8602-d801ac177e00")
+		(property "Reference" "#PWR014"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+		)
+		(instances
+			(project "LSM6DSV-Breakout"
+				(path "/24953b58-eadd-406a-9e64-cdff82281852"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 158.75 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f21da129-43fd-43c0-ab47-76956e3b9cd5")
+		(property "Reference" "#PWR012"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 158.75 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 158.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+		)
+		(instances
+			(project "LSM6DSV-Breakout"
+				(path "/24953b58-eadd-406a-9e64-cdff82281852"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 55.88 62.23 0)
 		(unit 1)
@@ -4795,138 +4927,6 @@
 			(project "LSM6DSV-Breakout"
 				(path "/24953b58-eadd-406a-9e64-cdff82281852"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 100.33 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc51b8ea-4c31-42d5-964c-bf9bcd0c859b")
-		(property "Reference" "#PWR08"
-			(at 100.33 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 100.33 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 100.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48a7908f-c88e-4778-aa65-e6424e0c7b68")
-		)
-		(instances
-			(project "LSM6DSV-Breakout"
-				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 147.32 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feaeef9e-3e4b-4df4-ada2-cca24fa5deec")
-		(property "Reference" "#PWR012"
-			(at 147.32 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 147.32 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 147.32 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e5d4d4f-c9d6-4921-8f15-610a348d5681")
-		)
-		(instances
-			(project "LSM6DSV-Breakout"
-				(path "/24953b58-eadd-406a-9e64-cdff82281852"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
