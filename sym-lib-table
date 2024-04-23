@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lsm6dsv")(type "KiCad")(uri "${KIPRJMOD}/lib/lsm6dsv.kicad_sym")(options "")(descr ""))
+  (lib (name "qwiic")(type "KiCad")(uri "${KIPRJMOD}/lib/qwiic.kicad_sym")(options "")(descr ""))
+)
