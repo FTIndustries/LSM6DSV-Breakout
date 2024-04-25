@@ -101,6 +101,7 @@
 		(property "Reference" "R4"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f6f2f2f3-3e4a-4542-b793-41fc9a91968a")
 			(effects
 				(font
@@ -309,8 +310,9 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0.002 -1.015 270)
+			(at 0.002 -1.015 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "974f121a-5faa-4c25-b1c9-2bc7592fb61e")
 			(effects
 				(font
@@ -320,7 +322,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "f2dc7a3f-2703-4abe-b2e1-c2a79095ae6e")
 			(effects
@@ -472,7 +474,7 @@
 			(uuid "0a6a50f5-5105-4ddc-a41e-92e6fc8cdd77")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cfdbd555-60c2-4369-a944-bd979eb04912")
 			(effects
@@ -521,6 +523,7 @@
 		(property "Reference" "R5"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "84b96470-9d78-46ea-aee5-ff05a820ff66")
 			(effects
 				(font
@@ -731,6 +734,7 @@
 		(property "Reference" "C2"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "82e9253f-45c7-4630-8ae0-08a65088bd03")
 			(effects
 				(font
@@ -941,6 +945,7 @@
 		(property "Reference" "R6"
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b780deda-f9a6-48da-8938-e5f5a6341b66")
 			(effects
 				(font
@@ -1147,8 +1152,9 @@
 		(uuid "5f257817-59f7-43ae-ac86-c6e48d5683b6")
 		(at 60.579 52.441 90)
 		(property "Reference" "U1"
-			(at 0 -5.01 270)
+			(at 0 -5.01 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "294f7b90-3563-40e8-8c28-f743f51a4b5a")
 			(effects
 				(font
@@ -1158,7 +1164,7 @@
 			)
 		)
 		(property "Value" "LSM6DSVTR"
-			(at 0 5.01 270)
+			(at 0 5.01 -90)
 			(layer "F.Fab")
 			(uuid "872dc548-d742-41cc-9bb9-a464ed2b3f7e")
 			(effects
@@ -1335,7 +1341,7 @@
 			(uuid "15f277cf-cc1f-48c7-ab73-b89fc04e8b04")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ed7b2459-98c2-4d53-98ca-8596d90b96cf")
 			(effects
@@ -1492,6 +1498,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "788065eb-8c67-41e3-804a-e634af85f47f")
 			(effects
 				(font
@@ -1602,6 +1609,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c93954f5-c6c3-4904-a479-f063e7d7db02")
 			(effects
 				(font
@@ -1710,6 +1718,7 @@
 		(property "Reference" "CN1"
 			(at 0 -5.87 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0afdc33d-d499-4d6d-a88c-8610de9217d0")
 			(effects
 				(font
@@ -1940,6 +1949,7 @@
 		(property "Reference" "R1"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98fbe5eb-c386-4b0f-996f-a9c2b0bb0a30")
 			(effects
 				(font
@@ -2148,6 +2158,7 @@
 		(property "Reference" "CN2"
 			(at 0 -3.971 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2e125254-33ca-47d6-9a60-eb40c7efda5a")
 			(effects
 				(font
@@ -2378,6 +2389,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6a4ff82f-5787-4a09-82d4-5bf37a287326")
 			(effects
 				(font
@@ -2664,6 +2676,7 @@
 		(property "Reference" "R2"
 			(at 0.002 -1.057 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65e35751-88ea-436d-8372-6256b09cfe4e")
 			(effects
 				(font
@@ -2874,6 +2887,7 @@
 		(property "Reference" "J1"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "23efbdd0-4db8-4731-8048-01f519da5399")
 			(effects
 				(font
@@ -3180,8 +3194,9 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e1ce5dd3-5e29-4855-b083-bce79777433f")
 			(effects
 				(font
@@ -3191,7 +3206,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "000057a3-8d18-4074-9c79-36602f650706")
 			(effects
@@ -3343,7 +3358,7 @@
 			(uuid "b929a421-f852-4e21-b706-fab80b644661")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "355bf040-f719-48e7-8449-64e888cf390c")
 			(effects
@@ -3390,8 +3405,9 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 1.8 270)
+			(at 0 1.8 -90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "3b0fb6e3-e282-4e08-92ac-856e95a9f805")
 			(effects
 				(font
@@ -3402,7 +3418,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 -1.9 270)
+			(at 0 -1.9 -90)
 			(layer "B.Fab")
 			(uuid "f0113693-adcc-4487-ba9d-de37a7d41a1d")
 			(effects
