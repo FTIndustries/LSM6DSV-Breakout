@@ -2692,7 +2692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 161.29 26.6699 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96560")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -3430,7 +3430,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96561")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -3460,7 +3460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 114.3 26.6699 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96562")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -3698,7 +3698,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96563")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -3728,7 +3728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 102.87 26.6699 0)
 			(effects
 				(font
@@ -3868,7 +3868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 138.43 26.6699 0)
 			(effects
 				(font
@@ -4162,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 149.86 26.6699 0)
 			(effects
 				(font
@@ -4268,7 +4268,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96564")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -4298,7 +4298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 127 26.6699 0)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96565")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -4470,7 +4470,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96566")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -4715,7 +4715,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96567")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -4781,7 +4781,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96568")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
@@ -4847,7 +4847,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c9655f")
+			(uuid "ff3c6a11-85e3-4b41-8399-dcf583c96569")
 		)
 		(instances
 			(project "LSM6DSV-Breakout"
